@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D51E750B-D9ED-4284-8AFE-DB3BE30D3E1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8C5BF900-06EB-4B97-A815-A2906A5B10A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodigoTransitoReader.Domain", "CodigoTransitoReader.Domain\CodigoTransitoReader.Domain.csproj", "{2EFA4189-31F9-4116-B406-E34528287E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodigoTransitoReader.Application", "CodigoTransitoReader.Application\CodigoTransitoReader.Application.csproj", "{0A02B06A-E9E8-4C85-81F2-03C7A2AC547A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodigoTransitoReader.Infrastructure", "CodigoTransitoReader.Infrastructure\CodigoTransitoReader.Infrastructure.csproj", "{8BB77A4A-81BF-4C8C-8EE9-DCF65A7F6EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodigoTransitoReader.Infrastructure.Persistence", "CodigoTransitoReader.Infrastructure.Persistence\CodigoTransitoReader.Infrastructure.Persistence.csproj", "{F36FC36D-651C-4F08-BD31-B596035D78AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodigoTransitoReader.Api", "CodigoTransitoReader.Api\CodigoTransitoReader.Api.csproj", "{751BAAE6-1BD7-4987-AD00-CEA3D45BB7E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EFA4189-31F9-4116-B406-E34528287E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFA4189-31F9-4116-B406-E34528287E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFA4189-31F9-4116-B406-E34528287E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFA4189-31F9-4116-B406-E34528287E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A02B06A-E9E8-4C85-81F2-03C7A2AC547A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A02B06A-E9E8-4C85-81F2-03C7A2AC547A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A02B06A-E9E8-4C85-81F2-03C7A2AC547A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A02B06A-E9E8-4C85-81F2-03C7A2AC547A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB77A4A-81BF-4C8C-8EE9-DCF65A7F6EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB77A4A-81BF-4C8C-8EE9-DCF65A7F6EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB77A4A-81BF-4C8C-8EE9-DCF65A7F6EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB77A4A-81BF-4C8C-8EE9-DCF65A7F6EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36FC36D-651C-4F08-BD31-B596035D78AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36FC36D-651C-4F08-BD31-B596035D78AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36FC36D-651C-4F08-BD31-B596035D78AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36FC36D-651C-4F08-BD31-B596035D78AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751BAAE6-1BD7-4987-AD00-CEA3D45BB7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751BAAE6-1BD7-4987-AD00-CEA3D45BB7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751BAAE6-1BD7-4987-AD00-CEA3D45BB7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751BAAE6-1BD7-4987-AD00-CEA3D45BB7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EFA4189-31F9-4116-B406-E34528287E28} = {D51E750B-D9ED-4284-8AFE-DB3BE30D3E1A}
+		{0A02B06A-E9E8-4C85-81F2-03C7A2AC547A} = {D51E750B-D9ED-4284-8AFE-DB3BE30D3E1A}
+		{8BB77A4A-81BF-4C8C-8EE9-DCF65A7F6EB3} = {D51E750B-D9ED-4284-8AFE-DB3BE30D3E1A}
+		{F36FC36D-651C-4F08-BD31-B596035D78AF} = {D51E750B-D9ED-4284-8AFE-DB3BE30D3E1A}
+		{751BAAE6-1BD7-4987-AD00-CEA3D45BB7E5} = {D51E750B-D9ED-4284-8AFE-DB3BE30D3E1A}
+	EndGlobalSection
+EndGlobal
